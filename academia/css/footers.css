@@ -1,0 +1,149 @@
+
+
+
+/* ----------------- FOOTERS ---------- */
+.footers{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+
+}
+
+/* ---- CONTAINER-FOOTER -------- */
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px;
+    background-color: black;
+    height: 500px;
+}
+
+/* ---- LOGO-FOOTER ---- */
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    /* height: 200px; */
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid white;
+
+}
+
+/* IMG */
+.logo-footer img{
+    width: 200px;
+    height: 200px;
+}
+
+/* ---- REDES-SOCIAL ---- */
+.redes-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    width: 100%;
+    padding: 50px;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+/* ----- TEXT-SOCIAL ---- */
+.text-social{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+/* H3 */
+.text-social h3{
+    font-size: 25px;
+    color: white;
+}
+
+/* ---- ICONES-REDES ---- */
+.icones-redes{
+    display: flex;
+    gap: 20px;
+
+}
+
+/* ---- LINK-FOOTER ---- */
+.link-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-bottom: 1px solid white;
+}
+
+/* ---- CONTAINER-LINK ---- */
+.container-link{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 20px;
+}
+
+/* SPAN */
+.container-link span{
+    font-size: 20px;
+    color: white;
+}
+
+/* A */
+.container-link a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/*---- ENDERECOS ---- */
+.enderecos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 400px;
+    padding-bottom: 100px;
+}
+
+/* ---- SITE ---- */
+.site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* P */
+.site p{
+    font-size: 14px;
+    color: white;
+}
+
+/* --- LOCAIS --- */
+.locais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+/* P */
+.locais p{
+    color: white;
+    font-size: 14px;
+}
+
+/* A */
+.locais a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+/* H4 */
+.locais h4{
+    font-size: 14px;
+}
+
