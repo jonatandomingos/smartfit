@@ -1,0 +1,51 @@
+
+/* ----------------- HEADERS-ACADEMIA ------------- */
+.headers-academy{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+}
+
+/* ----- CONTAINER-HEADERS ---- */
+.container-headers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 6px 9px -4px rgba(0, 0, 0, .1);
+
+    padding: 0px 100px;
+}
+
+/* --- LOGO-ACADEMY ---- */
+.logo-academy{
+    display: flex;
+}
+
+/* IMG */
+.logo-academy img{
+    width: 200px;
+    object-fit: cover;
+}
+
+/* ---- BTN-MENU ---- */
+.btn-menu{
+    display: flex;
+}
+
+/* BUTTON */
+.btn-menu button{
+    border: none;
+    outline: none;
+}
+
+/* ---- IMGS-MENSAL ---- */
+.imgs-mensal{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+

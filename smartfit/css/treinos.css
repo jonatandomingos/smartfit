@@ -1,0 +1,152 @@
+
+/* -------------------- TREINOS --------------- */
+.treinos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+
+}
+
+/* ---- TEXT-TREINOS ---- */
+.text-treinos{
+    display: flex;
+    justify-content: center;
+}
+
+/* H2 */
+.text-treinos h2{
+    font-size: 30px;
+    color: var(--black);
+    font-weight: 900;
+    padding-bottom: 40px;
+}
+
+/* STRONG */
+.text-treinos strong{
+    color: var(--orange);
+}
+
+/* ---- CONTAINER-TREINSO ---- */
+.container-treinos{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+/* ---- ITENS-TREINOS ---- */
+.itens-treinos{
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    height: 507.48px;
+    background-color: transparent;
+    border-radius: 6px;
+    box-shadow: 0 3px 17px rgba(0, 0, 0, .1);
+    
+}
+
+/* HOVER */
+.itens-treinos:hover{
+    box-shadow: 0px 2px 8px var(--orange);
+    
+
+}
+
+/* ---- IMG-TREINO ---- */
+.img-treino{
+    display: flex;
+    
+}
+
+/* IMG */
+.img-treino img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+
+/* ---- LINK-TREINO ---- */
+.links-treino{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: var(--orange);
+}
+
+/* A */
+.links-treino a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 700;
+
+}
+
+/* ---- DURATION ---- */
+.duration{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* ---- ITENS-DURATION ---- */
+.itens-duration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* SPAN */
+.itens-duration span{
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+/* P */
+.itens-duration p{
+    font-size: 12px;
+}
+
+/* ---- LINHAS ---- */
+.linhas{
+    display: flex;
+    border: 1px solid #e1e1e1;
+    margin: 0px 10px;
+}
+
+/* ---- SUB-TITLE ---- */
+.sub-title{
+    display: flex;
+}
+
+/* P */
+.sub-title p{
+    font-size: 14px;
+    color: var(--black2);
+    padding: 10px;
+    line-height: 16.8px;
+    max-height: 170px;
+}
+
+/* ---- LINK-SAIBA ---- */
+.link-saiba{
+    display: flex;
+    justify-content: center;
+    padding: 10px 16px;
+}
+
+/* A */
+.link-saiba a{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 13px;
+    font-weight: 600;
+}
+

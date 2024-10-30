@@ -1,0 +1,138 @@
+
+/* --------------------- SERVICOS -------------- */
+.servicos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 80px;
+}
+
+/* ---- TEXT-SERVICOS ---- */
+.text-servicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* H2 */
+.text-servicos h2{
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+
+}
+
+/* ---- CONTAINER-SERVICOS ---- */
+.container-servicos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ---- ITENS-SERVICOS ----- */
+.itens-servicos{
+    display: flex;
+    flex-direction: column;
+
+    width: 350px;
+    height: 500px;
+
+    border-radius: 14px;
+    background-color: transparent;
+    box-shadow: 0 0 12px 0 rgba(160, 160, 167, .25);
+
+    position: relative;
+}
+
+/* ---- IMG-SERVICOS ----- */
+.img-servicos{
+    display: flex;
+}
+
+/* IMG */
+.img-servicos img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+/* ---- INFO-SERVICOS ---- */
+.info-servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* SPAN */
+.info-servicos span{
+    font-size: 12px;
+    color: rgba(1, 1, 20, .48);
+}
+
+/* H3 */
+.info-servicos h3{
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(1, 1, 20, .88);
+    font-weight: 900;
+}
+
+/* P */
+.info-servicos p{
+    color: rgba(1, 1, 20, .64);
+    font-size: 14px;
+}
+
+/* ---- PRECOS ---- */
+.precos{
+    display: flex;
+    padding-left: 10px;
+
+}
+
+/* H3 */
+.precos h3{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+/* ---- PARCELAS ---- */
+.parcelas{
+    display: flex;
+}
+
+/* P */
+.parcelas p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+/* ---- LINKS-SAIBA-MAIS ---- */
+.links-saiba-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 182, 18);;
+    border-radius: 20px;
+    margin-inline: 20px;
+
+
+    position: absolute;
+    top: 430px;
+}
+
+/* A */
+.links-saiba-mais a{
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 900;
+}
+
+

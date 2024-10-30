@@ -1,0 +1,53 @@
+
+
+.local-treino{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+    padding: 20px 100px;
+}
+
+.title-treino{
+    display: flex;
+}
+
+.title-treino h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.searchs-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgb(159, 159, 167);
+
+    position: relative;
+}
+
+.searchs-inputs input{
+    width: 100%;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+
+.searchs-inputs input::placeholder{
+    font-size: 14px;
+}
+
+.searchs-inputs .bi-search{
+    color: black;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 20px;
+
+}

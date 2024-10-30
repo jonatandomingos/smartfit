@@ -1,0 +1,75 @@
+
+/* --------------------- SMARTFIT-APP ----------------*/
+.smartfit-app{
+    display: flex;
+    flex-direction: column;
+
+   margin-bottom: 50px;
+   padding-bottom: 50px;
+
+    background-color: #fff0d2;
+    overflow-x: hidden;
+}
+
+/* ---- CONTAINER-APP ---- */
+.container-app{
+    display: flex;
+    gap: 200px;
+}
+
+/* ---- LADO-LEFT ---- */
+.lado-left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+/* ---- TEXT-APP ---- */
+.text-app{
+    display: flex;
+}
+
+/* H2 */
+.text-app h2{
+    font-size: 32px;
+    line-height: 38px;
+    color: #333;
+    font-weight: 900;
+}
+
+/* ---- TEXT-SUB ---- */
+.text-sub{
+    padding-top: 20px;
+}
+
+/* ---- TEXT-GRACA ---- */
+.text-graca{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+/* ---- LINK-QRCODE --- */
+.link-qrcode{
+    display: flex;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+/* ---- LINK-GOOGLE ---- */
+.link-google{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+/*---- IMG-APP ---- */
+.img-app{
+    display: flex;
+    margin-top: 100px;
+    
+}
+

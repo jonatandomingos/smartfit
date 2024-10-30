@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+/* IMPORTS */
+
+@import url(/smartfit/css/headers.css);
+@import url(/smartfit/css/planos-mensal.css);
+@import url(/smartfit/css/local-academia.css);
+@import url(/smartfit/css/experiencia.css);
+@import url(/smartfit/css/treinos.css);
+@import url(/smartfit/css/smartfit-app.css);
+@import url(/smartfit/css/servicos.css);
+@import url(/smartfit/css/footers.css);
+
+:root{
+    --black: #1c1c1c;
+    --orange: #ffb612;
+    --gray: #e2e8f0;
+    --black2: #1a1a1a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    
+}
+

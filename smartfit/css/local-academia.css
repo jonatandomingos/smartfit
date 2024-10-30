@@ -1,0 +1,88 @@
+
+/* ---------------- LOCAL-ACADEMIA --------------- */
+.local-academia{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 50px;
+    padding-inline: 20px;
+
+}
+
+/* ---- TEXT-LOCAL ----- */
+.text-local{
+    display: flex;
+    justify-content: center;
+}
+
+/* H2 */
+.text-local h2{
+    font-size: 30px;
+    color: var(--black);
+    font-weight: 900;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+/* STRONG */
+.text-local h2 strong{
+    color: var(--orange);
+}
+
+/* ---- IMGS-LOCAL ---- */
+.imgs-local{
+    background-image: url(https://assets.smartfit.com.br/images/new_home_br/hero-smartfit.jpeg);
+    height: 320px;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    
+}
+
+/* ----- SEARCHS ----- */
+.searchs{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 405px;
+    padding: 14px 20px;
+    background: #fff;
+    border-radius: 46px;
+    font-family: DM Sans, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    top: 150px;
+    left: 30%;
+        
+}
+
+/* A */
+.searchs a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 900;
+}
+
+/* A (HOVER) */
+.searchs a:hover{
+    color: #fff;
+}
+
+/* HOVER */
+.searchs:hover{
+    background-color: var(--black);
+    color: white;
+}
+
+
+.searchs .bi-search{
+    color: var(--black);
+    font-weight: 900;
+    right: 32px;
+    position: absolute;
+}
+
