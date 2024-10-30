@@ -1,5 +1,5 @@
 
-
+/* ------------- LOCAL-TREINO ------------- */
 .local-treino{
     display: flex;
     flex-direction: column;
@@ -8,15 +8,18 @@
     padding: 20px 100px;
 }
 
+/* ---- TITLE-TREINO --- */
 .title-treino{
     display: flex;
 }
 
+/* H2 */
 .title-treino h2{
     font-size: 32px;
     font-weight: 700;
 }
 
+/* ---- SEARCHS-INPUTS ----- */
 .searchs-inputs{
     display: flex;
     justify-content: space-between;
@@ -32,6 +35,7 @@
     position: relative;
 }
 
+/* INPUTS  */
 .searchs-inputs input{
     width: 100%;
     padding-left: 20px;
@@ -39,9 +43,11 @@
     outline: none;
 }
 
+/* PLACEHOLDER */
 .searchs-inputs input::placeholder{
     font-size: 14px;
 }
+
 
 .searchs-inputs .bi-search{
     color: black;
@@ -51,3 +57,5 @@
     font-size: 20px;
 
 }
+
+
