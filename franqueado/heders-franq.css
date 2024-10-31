@@ -1,5 +1,5 @@
 
-
+/* ------------- HEADERS-FRANQ ---------- */
 .heders-franq{
     display: flex;
     justify-content: center;
@@ -10,6 +10,7 @@
     background-color: black;
 }
 
+/* IMG */
 .heders-franq img{
     width: 500px;
     height: 80px;
