@@ -32,22 +32,26 @@
     object-fit: cover;
 }
 
+/* ---- PAIS ---- */
 .pais{
     display: flex;
     
     gap: 20px;
 }
 
+/* P */
 .pais p{
     font-size: 12px;
 }
 
+/* IMG */
 .pais img{
     width: 30px;
     height: 30px;
     text-align: center;
 }
 
+/* STRONG */
 .pais strong{
     font-size: 12px;
 }
