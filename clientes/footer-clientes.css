@@ -1,5 +1,5 @@
 
-
+/* ------------ FOOTER-CLIENTES ---------- */
 .footer-clientes{
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     background-color: rgb(31, 33, 35);
 }
 
+/* ---- LOGO-FOOTER ---- */
 .logo-footer{
     height: 200px;
     display: flex;
@@ -15,6 +16,7 @@
     align-items: center;
 }
 
+/* ---- CONTAINER-FOOTER ---- */
 .container-footer{
     display: flex;
     justify-content: space-between;
@@ -23,7 +25,7 @@
     border-top: 1px solid white;
 }
 
-
+/* ---- LINKS-FOOTERS ---- */
 .links-footers{
     display: flex;
     flex-direction: column;
@@ -31,29 +33,32 @@
     gap: 20px;
 }
 
-
+/* SPAN */
 .links-footers span{
     color: white;
     font-size: 18px;
     text-transform: uppercase;
 }
 
+/* LI */
 .links-footers li{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/* A */
 .links-footers a{
     text-decoration: none;
     color: white;
 }
 
+/* A (HOVER) */
 .links-footers a:hover{
     color: var(--orange);
 }
 
-
+/* ---- REDES-SOCIAIS --- */
 .redes-sociais{
     display: flex;
     flex-direction: column;
@@ -61,10 +66,12 @@
     gap: 20px;
 }
 
+/* ---- TEXT-REDES ---- */
 .text-redes{
     display: flex;
 }
 
+/* SPAN */
 .text-redes span{
     color: white;
     font-size: 18px;
@@ -72,18 +79,20 @@
 }
 
 
-
+/*---- ICONES-REDES-SOCIAL ----- */
 .icones-redes-social{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
+/* ---- ICONES ---- */
 .icones{
     display: flex;
 
 }
 
-
+/* A */
 .icones a {
     text-decoration: none;
     color: white;
@@ -91,6 +100,9 @@
     transition: all .3s;
 }
 
+/* A (HOVER) */
 .icones a:hover{
     color: var(--orange);
 }
+
+
