@@ -1,14 +1,14 @@
 
-
+/* ----------------- GERENCIAR-CONTA -------------- */
 .gerenciar-conta{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 
 }
 
-
+/* ---- CONTAIENR-CONTAS ---- */
 .container-contas{
     display: flex;
     justify-content: space-between;
@@ -18,20 +18,24 @@
 
 }
 
+/* ----- CONTAS ---- */
 .contas{
     display: flex;
     flex-direction: column;
 }
 
+/* ---- LOGO-CONTA ---- */
 .logo-conta {
     display: flex;
 }
 
+/* IMG */
 .logo-conta img{
     width: 265px;
 
 }
 
+/* ---- TEXT-CONTA ---- */
 .text-conta{
     display: flex;
     flex-direction: column;
@@ -40,10 +44,12 @@
     padding-top: 20px;
 }
 
+/* STRONG */
 .text-conta strong{
     font-weight: 900;
 }
 
+/* P */
 .text-p{
     display: flex;
     flex-direction: column;
@@ -51,12 +57,14 @@
     
 }
 
-
+/* UL */
 .text-p ul{
     display: flex;
     flex-direction: column;
 
 }
+
+/* ---- FORMULATION ---- */
 .formulation{
     display: flex;
     flex-direction: column;
@@ -67,7 +75,7 @@
     border-radius: 4px;
 }
 
-
+/* ---- TEXT-FORMS ---- */
 .text-forms{
     display: flex;
     flex-direction: column;
@@ -77,17 +85,20 @@
     padding-top: 20px;
 }
 
+/* H3 */
 .text-forms h3{
     font-size: 20px;
     font-weight: 900;
 }
 
+/* P */
 .text-forms p{
     font-size: 16px;
 
 
 }
 
+/* ---- INPUTS ---- */
 .inputs{
     display: flex;
     align-items: center;
@@ -95,45 +106,51 @@
     padding: 20px;
 }
 
+/* ---- INPUTS-CPF ---- */
 .inputs-cpf{
     display: flex;
     flex-direction: column;
 }
 
-
+/* INPUT */
 .inputs-cpf input{
     height: 40px;
 
 }
 
+/* PLACEHOLDER */
 .inputs-cpf ::placeholder{
     padding-left: 10px;
 }
 
-
+/* ---- TEXT-DOCUMENT ---- */
 .text-document{
     display: flex;
     width: 100%;
     padding-top: 26px;
 }
 
+/* INPUT */
 .text-document input{
     height: 40px;
     width: 100%;
 }
 
+/* PLACEHOLDER */
 .text-document input::placeholder{
     padding-left: 10px;
 }
 
+/* ---- BTN-ENTRAR ---- */
 .btn-entrar{
     display: flex;
     padding: 20px;
 }
 
+/* BUTTON */
 .btn-entrar button{
     width: 100%;
-    height: 40px;
+    height: 45px;
 
     border: none;
     outline: none;
@@ -144,11 +161,4 @@
     font-weight: 900;
 
 }
-
-
-
-
-
-
-
 
