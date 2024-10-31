@@ -1,5 +1,5 @@
 
-
+/* -------------- REDES-ACADEMY ---------- */
 .redes-academy{
     display: flex;
 
@@ -10,6 +10,7 @@
 
 }
 
+/* ---- TEXT-ACADEMY ----- */
 .textos-academy{
     display: flex;
     flex-direction: column;
@@ -23,30 +24,33 @@
     position: relative;
 }
 
+/* H2 */
 .textos-academy h2{
     width: 400px;
     font-size: 32px;
     font-weight: 900;
 }
 
+/* P */
 .textos-academy p{
     font-size: 20px;
     font-weight: 900;
     width: 400px;
 }
 
-
+/* ---- IMG-PESSOAS ---- */
 .img-pessoas{
     display: flex;
     flex: 1;
 }
 
-
+/* IMG */
 .img-pessoas img{
     width: 100%;
     object-fit: cover;
 }
 
+/* ---- BTN-FRANQUEADO ---- */
 .btn-franqueado{
     display: flex;
     position: absolute;
@@ -54,6 +58,7 @@
     top: 322px;
 }
 
+/* BUTTON */
 .btn-franqueado button{
     height: 55px;
     width: 315px;
@@ -69,6 +74,7 @@
     font-size: 20px;
 }
 
+/* BTN (HOVER) */
 .btn-franqueado button:hover{
     background-color: #be0606;
 }
