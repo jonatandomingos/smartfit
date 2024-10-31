@@ -1,0 +1,20 @@
+
+
+.heders-franq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 116px;
+    width: 100%;
+
+    background-color: black;
+}
+
+.heders-franq img{
+    width: 500px;
+    height: 80px;
+    object-fit: contain;
+}
+
+
+
