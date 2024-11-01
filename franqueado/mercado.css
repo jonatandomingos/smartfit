@@ -1,0 +1,85 @@
+
+
+.mercado{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+
+.text-mercado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-mercado h2{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    font-family: var(--monts);
+}
+
+.text-mercado strong{
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.container-mercado{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    padding-right: 20px;
+
+}
+
+.img-mercado{
+    display: flex;
+    width: 800px;
+
+}
+
+.conteudo-mercado{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+
+    padding-left: 20px;
+}
+
+.itens-mercado{
+    display: flex;
+    gap: 20px;
+}
+.texto-mercado{
+    display: flex;
+}
+
+.texto-mercado p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: var(--monts);
+}
+
+.fontes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fontes p{
+    font-size: 12px;
+}
+
+.fontes a{
+    color: var(--orange);
+}
+
+
+
+
+
+
