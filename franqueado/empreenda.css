@@ -1,0 +1,58 @@
+
+
+.empreenda{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+
+}
+
+.text-empreenda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-empreenda h2{
+    font-size: 35px;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    color: black;
+
+    
+}
+
+
+.text-empreenda strong{
+    color: #ffb612;
+    font-weight: 600;
+}
+
+.text-empreenda p{
+    width: 780px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.container-empreenda{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px;
+    height: 282px;
+
+    overflow-x: hidden;
+    margin-bottom: 40px;
+}
+
+
+.itens-empreenda{
+    width: 341px;
+    height: 282px;
+    background-color: blue;
+    border-radius: 4px;
+}
+

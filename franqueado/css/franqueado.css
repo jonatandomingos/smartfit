@@ -6,6 +6,7 @@
 @import url(/franqueado/heders-franq.css);
 @import url(/franqueado/redes-academy.css);
 @import url(/franqueado/revolucao-fitness.css);
+@import url(/franqueado/empreenda.css);
 
 
 :root{
@@ -13,6 +14,8 @@
     --orange: #ffb612;
     --gray: #e2e8f0;
     --black2: #1a1a1a;
+    
+
 }
 
 *{
