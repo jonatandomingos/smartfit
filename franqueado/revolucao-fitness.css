@@ -1,5 +1,5 @@
 
-
+/* ------------ REVOLUCAO-FITNESS ------------ */
 .revolucao-fitness{
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     padding-bottom: 300px;
 }
 
-
+/* ---- TEXT-REVOLUCAO ---- */
 .text-revolucao{
     display: flex;
     justify-content: center;
@@ -15,15 +15,18 @@
     padding: 20px 0px 40px 0px;
 }
 
+/* H2 */
 .text-revolucao h2{
     font-size: 35px;
     font-weight: 700;
 }
 
+/* STRONG */
 .text-revolucao strong{
     color: rgb(255, 182, 18);
 }
 
+/* ---- CONTAINER-REVOLUCAO ---- */
 .container-revolucao{
     display: flex;
     justify-content: space-between;
@@ -32,38 +35,44 @@
 
 }
 
+/* ---- ITENS-REVOLUCAO ---- */
 .itens-revolucao{
     display: flex;
     gap: 10px;
 }
 
+/* IMG */
 .itens-revolucao img{
     width: 40px;
     height: 40px;
 }
 
+/* ---- VALOR ---- */
 .valor{
     display: flex;
     flex-direction: column;
 }
 
+/* SPAN */
 .valor span{
     font-size: 30px;
     font-weight: 700;
 }
 
+/* P */
 .valor p{
     font-size: 18px;
     text-align: center;
 }
 
-
+/*---- BTN-FRANQ-BLACK ---- */
 .btn-franq-black{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* BUTTON */
 .btn-franq-black button{
     height: 55px;
     width: 315px;
@@ -79,6 +88,7 @@
     color: white;
 }
 
+/* ---- PESQUISE ---- */
 .pesquise{
     display: flex;
     justify-content: center;
@@ -87,6 +97,7 @@
     padding-top: 20px;
 }
 
+/* P */
 .pesquise p{
     font-size: 12px;
     font-weight: 400;
