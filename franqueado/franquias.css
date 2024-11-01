@@ -1,6 +1,6 @@
 
 
-
+/* ------------------ FRANQUIAS --------------- */
 .franquias{
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@
     position: relative;
 }
 
-
+/* ---- TEXT-FRANQUIAS ---- */
 .text-franquias{
     display: flex;
     justify-content: center;
@@ -19,6 +19,7 @@
 
 }
 
+/* H2 */
 .text-franquias h2{
     font-size: 35px;
     font-weight: 700;
@@ -26,11 +27,13 @@
     text-align: center;
 }
 
+/* STRONG */
 .text-franquias strong{
     color: var(--orange);
     font-weight: 700;
 }
 
+/* ---- CONTAINER-FRANQUIAS ---- */
 .container-franquias{
     display: flex;
     justify-content: space-between;
@@ -39,7 +42,7 @@
     height: 400px;
 }
 
-
+/* ---- ITENS-FRANQUIAS ---- */
 .itens-franquias{
     display: flex;
     flex-direction: column;
@@ -48,16 +51,18 @@
     
 }
 
+/* ---- IMG-FRANQUIAS ---- */
 .img-franquias{
     display: flex;
 }
 
+/* IMG */
 .img-franquias img{
     width: 380px;
     height: 279px;
 }
 
-
+/* ---- TEXTOS-FRANQUIAS ---- */
 .textos-franquias{
     display: flex;
     flex-direction: column;
@@ -66,12 +71,14 @@
     width: 380px;
 }
 
+/* H3 */
 .textos-franquias h3{
     font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
 
+/* SPAN */
 .textos-franquias span{
     font-size: 16px;
     color: black;
@@ -80,12 +87,13 @@
     font-style: normal;
 }
 
-
+/* ---- BTN-FRANQUIAS ---- */
 .btn-franquias{
     display: flex;
     
 }
 
+/* BUTTON */
 .btn-franquias button{
     position: absolute;
     left: 35%;
@@ -104,7 +112,4 @@
     color: white;
 
 }
-
-
-
 
