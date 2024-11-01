@@ -1,20 +1,20 @@
 
-
+/* -------------------- MERCADO ---------------------- */
 .mercado{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 }
 
-
+/* ---- TEXT-MERCADO ---- */
 .text-mercado{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
+/* H2 */
 .text-mercado h2{
     font-size: 35px;
     color: black;
@@ -22,11 +22,13 @@
     font-family: var(--monts);
 }
 
+/* STRONG */
 .text-mercado strong{
     color: var(--orange);
     font-weight: 600;
 }
 
+/* ---- CONTAINER-MERCADO ---- */
 .container-mercado{
     display: flex;
     height: 500px;
@@ -35,12 +37,14 @@
 
 }
 
+/* ---- IMG-MERCADO ---- */
 .img-mercado{
     display: flex;
     width: 800px;
 
 }
 
+/* ---- CONTEUDO-MERCADO ---- */
 .conteudo-mercado{
     display: flex;
     flex-direction: column;
@@ -50,36 +54,38 @@
     padding-left: 20px;
 }
 
+/* ---- ITENS-MERCADO ---- */
 .itens-mercado{
     display: flex;
     gap: 20px;
 }
+
+/* ---- TEXTOS-MERCADO ---- */
 .texto-mercado{
     display: flex;
 }
 
+/* P */
 .texto-mercado p{
     font-size: 16px;
     font-weight: 300;
     font-family: var(--monts);
 }
 
+/* ---- FONTES ---- */
 .fontes{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/* P */
 .fontes p{
     font-size: 12px;
 }
 
+/* A */
 .fontes a{
     color: var(--orange);
 }
-
-
-
-
-
 
