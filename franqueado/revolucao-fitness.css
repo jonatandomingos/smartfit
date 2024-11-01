@@ -1,0 +1,96 @@
+
+
+.revolucao-fitness{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+
+.text-revolucao{
+    display: flex;
+    justify-content: center;
+
+    padding: 20px 0px 40px 0px;
+}
+
+.text-revolucao h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.text-revolucao strong{
+    color: rgb(255, 182, 18);
+}
+
+.container-revolucao{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    margin: 0px 100px;
+
+}
+
+.itens-revolucao{
+    display: flex;
+    gap: 10px;
+}
+
+.itens-revolucao img{
+    width: 40px;
+    height: 40px;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+}
+
+.valor span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.valor p{
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.btn-franq-black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-franq-black button{
+    height: 55px;
+    width: 315px;
+    border-radius: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #1C1C1C;
+
+    border: none;
+    outline: none;
+
+    color: white;
+}
+
+.pesquise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 20px;
+}
+
+.pesquise p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+
