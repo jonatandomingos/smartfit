@@ -1,13 +1,14 @@
 
-
+/* ---------------------- FORMS-FRANQ ----------------- */
 .forms-franq{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 150px;
 
 }
 
+/* ---- TEXT-FORMS ---- */
 .text-forms{
     display: flex;
     flex-direction: column;
@@ -16,22 +17,26 @@
     gap: 20px;
 }
 
+/* H2 */
 .text-forms h2{
     font-size: 35px;
     color: black;
     font-weight: 700;
 }
 
+/* STRONG */
 .text-forms strong{
     color: var(--orange);
 }
 
+/* P */
 .text-forms p{
     text-align: center;
     width: 690px;
     font-size: 1rem;
 }
 
+/* ---- CONTAINER-FORMS ---- */
 .container-forms{
     display: flex;
     gap: 50px;
@@ -40,6 +45,7 @@
 
 }
 
+/* ---- FORMS-ONE ---- */
 .forms-one{
     display: flex;
     flex-direction: column;
@@ -49,24 +55,21 @@
 
 }
 
-.forms-two{
-    display: flex;
-    flex: 1;
-    background-color: blue;
-}
 
-
-
+/* ---- FORMS-INPUTS ---- */
 .forms-inputs{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
+
+/* LABEL */
 .forms-inputs label{
     font-size: 16px;
 }
 
+/* INPUT */
 .forms-inputs input {
     color: #1c1c1c;
     border-radius: 4px;
@@ -75,16 +78,19 @@
     height: 36px;
 }
 
+/* PLACEHOLDER */
 .forms-inputs input::placeholder{
     padding-left: 10px;
 }
 
+/* ---- SOCIOS ---- */
 .socios{
     display: flex;
     margin-top: 40px;
     width: 330px;
 }
 
+/* P */
 .socios p{
     font-size: 14px;
     font-family: var(--monts);
@@ -94,12 +100,13 @@
 
 }
 
+/* ---- BTN-ENVIAR ---- */
 .btn-enviar{
     display: flex;
 
 }
 
-
+/* BUTTON */
 .btn-enviar button{
     width: 315px;
     height: 55px;
@@ -114,8 +121,11 @@
     font-weight: 500;
     color: white;
 
+    transition: all .2s;
+
 }
 
+/* HOVER (BUTTON) */
 .btn-enviar button:hover{
     background-color: gray;
     color: black;
