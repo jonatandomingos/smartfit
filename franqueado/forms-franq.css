@@ -1,0 +1,122 @@
+
+
+.forms-franq{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+
+}
+
+.text-forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-forms h2{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+}
+
+.text-forms strong{
+    color: var(--orange);
+}
+
+.text-forms p{
+    text-align: center;
+    width: 690px;
+    font-size: 1rem;
+}
+
+.container-forms{
+    display: flex;
+    gap: 50px;
+    margin: 0px 100px;
+    height: 400px;
+
+}
+
+.forms-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+
+
+}
+
+.forms-two{
+    display: flex;
+    flex: 1;
+    background-color: blue;
+}
+
+
+
+.forms-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.forms-inputs label{
+    font-size: 16px;
+}
+
+.forms-inputs input {
+    color: #1c1c1c;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #1c1c1c;
+    height: 36px;
+}
+
+.forms-inputs input::placeholder{
+    padding-left: 10px;
+}
+
+.socios{
+    display: flex;
+    margin-top: 40px;
+    width: 330px;
+}
+
+.socios p{
+    font-size: 14px;
+    font-family: var(--monts);
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.btn-enviar{
+    display: flex;
+
+}
+
+
+.btn-enviar button{
+    width: 315px;
+    height: 55px;
+
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 1);
+
+    font-size: 16px;
+    font-family: var(--monts);
+    font-weight: 500;
+    color: white;
+
+}
+
+.btn-enviar button:hover{
+    background-color: gray;
+    color: black;
+}
