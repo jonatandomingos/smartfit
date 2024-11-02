@@ -1,0 +1,17 @@
+
+
+.footer-franq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 1);
+
+}
+
+.footer-franq img{
+    width: 224px;
+    height: 83px;
+}
