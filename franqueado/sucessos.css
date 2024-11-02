@@ -1,0 +1,122 @@
+
+
+.sucessos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+
+.text-sucessos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.text-sucessos h2{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+}
+
+.text-sucessos strong{
+    color: var(--orange);
+}
+
+.container-sucessos{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    height: 300px;
+
+    margin-top: 50px;
+
+}
+
+
+.itens-sucessos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.itens-sucessos span{
+    font-size: 16px;
+}
+
+
+.numbres{
+    display: flex;
+}
+
+.numbres .number-p{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+
+.numbres .simbolos{
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+
+.itens-sucessos p{
+    width: 320px;
+    text-align: center;
+}
+
+.btn-sucessos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 426px;
+    height: 45px;
+    background-color: red;
+    border-radius: 23px;
+    background-color: #ffb61200;
+    border-style: dotted;
+    border-color: var(--orange);
+}
+
+
+.btn-sucessos p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 auto;
+
+    font-size: 1rem;
+    font-family: var(--monts);
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+
+
+}
+
+
+.btn-franq-sucessos{
+    display: flex;
+    justify-content: center;
+    padding-block: 50px;
+}
+
+.btn-franq-sucessos button{
+    height: 55px;
+    width: 315px;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #1C1C1C;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
