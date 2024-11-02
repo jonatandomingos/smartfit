@@ -1,5 +1,5 @@
 
-
+/* --------- FOOTER-FRANQ --------------- */
 .footer-franq{
     display: flex;
     justify-content: center;
@@ -11,6 +11,7 @@
 
 }
 
+/* IMG */
 .footer-franq img{
     width: 224px;
     height: 83px;
