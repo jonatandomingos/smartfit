@@ -1,13 +1,14 @@
 
-
+/* ------------------- SUCESSOS ------------------- */
 .sucessos{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 }
 
 
+/* ---- TEXT-SUCESSOS ---- */
 .text-sucessos{
     display: flex;
     justify-content: center;
@@ -16,17 +17,19 @@
 
 }
 
-
+/* H2 */
 .text-sucessos h2{
     font-size: 35px;
     color: black;
     font-weight: 700;
 }
 
+/* STRONG */
 .text-sucessos strong{
     color: var(--orange);
 }
 
+/* ---- CONTAINER-SUCESSOS ---- */
 .container-sucessos{
     display: flex;
     justify-content: space-between;
@@ -37,39 +40,42 @@
 
 }
 
-
+/* ---- ITENS-SUCESSOS ---- */
 .itens-sucessos{
     display: flex;
     flex-direction: column;
 
 }
 
+/* SPAN */
 .itens-sucessos span{
     font-size: 16px;
 }
 
-
+/* ---- NUMBRES ---- */
 .numbres{
     display: flex;
 }
 
+/* ---- NUMBER- P ---- */
 .numbres .number-p{
     font-size: 70px;
     font-weight: 900;
 }
 
-
+/* ---- SIMBOLOS ---- */
 .numbres .simbolos{
     padding-top: 40px;
     font-size: 30px;
 }
 
-
+/* P */
 .itens-sucessos p{
     width: 320px;
     text-align: center;
 }
 
+/* ---- BTN-SUCESSOS ----- */
 .btn-sucessos{
     display: flex;
     justify-content: center;
@@ -85,7 +91,7 @@
     border-color: var(--orange);
 }
 
-
+/* P */
 .btn-sucessos p{
     text-align: center;
     font-size: 18px;
@@ -100,13 +106,14 @@
 
 }
 
-
+/* ---- BTN-FRANQ-SUCESSOS ---- */
 .btn-franq-sucessos{
     display: flex;
     justify-content: center;
     padding-block: 50px;
 }
 
+/* BUTTON */
 .btn-franq-sucessos button{
     height: 55px;
     width: 315px;
