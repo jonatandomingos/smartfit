@@ -1,11 +1,14 @@
 
+
+/* --------------- EXCLUSIVOS ------------------- */
 .exclusivos{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 }
 
+/* ---- TEXT-EXCLUSIVOS ---- */
 .text-exclusivos{
     display: flex;
     justify-content: center;
@@ -16,13 +19,14 @@
 }
 
 
-
+/* H2 */
 .text-exclusivos h2{
     font-size: 32px;
     color: var(--black);
     font-weight: 700;
 }
 
+/* ---- CONTAINER-EXCLUSIVOS ---- */
 .container-exclusivos{
     display: flex;
     justify-content: center;
@@ -87,7 +91,7 @@
 
 }
 
-
+/* P */
 .links-treino p{
     font-size: 12px;
 }
@@ -154,6 +158,7 @@
     font-weight: 600;
 }
 
+/*---- BTN-ESCOLHER-GMY2 ---- */
 .btn-escolher-gmy2{
     display: flex;
     justify-content: center;
@@ -161,7 +166,7 @@
     margin-top: 50px;
 }
 
-
+/* A */
 .btn-escolher-gmy2 a{
     text-decoration: none;
 
@@ -176,7 +181,8 @@
 }
 
 
-
+/* HOVER (A) */
 .btn-escolher-gmy2 a:hover{
     background-color: red;
 }
+
