@@ -1,5 +1,5 @@
 
-
+/* ---------------- HEADERS-CONHECER ---------------- */
 .headers-conhecer{
     display: flex;
     align-items: center;
@@ -9,22 +9,25 @@
     background-color: #000000;
 }
 
-
+/* ---- LOGO-IMG ---- */
 .logo-img{
     display: flex;
 }
 
+/* ---- LINK-HEADERS ---- */
 .link-headers{
     display: flex;
     
 }
 
+/* LI */
 .link-headers li{
     display: flex;
     gap: 50px;
     list-style: none;
 }
 
+/* A */
 .link-headers a{
     text-decoration: none;
     font-size: 14px;
@@ -36,7 +39,8 @@
     transition: .2s;
 }
 
-
+/* HOVER (A) */
 .link-headers a:hover{
     color: var(--orange);
 }
+
