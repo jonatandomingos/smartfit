@@ -1,0 +1,97 @@
+
+
+
+/* ------------------ HEADERS ----------------- */
+.headers{
+    width: 100%;
+    
+}
+
+/* ---- HEADERS-LINKS ----- */
+.headers-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 20px 60px 10px;
+    box-shadow: 0 6px 9px -4px rgba(0, 0, 0, .1);
+}
+
+/* ---- LOGO ---- */
+.logo {
+    display: flex;
+}
+
+/* IMG */
+.logo img{
+    width: 150px;
+    height: 40px;
+    object-fit: cover;
+}
+
+/* ---- LINKS-HEADERS ----- */
+.links-headers{
+    display: flex;
+}
+
+/* UL */
+.links-headers ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+/* A */
+.links-headers a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* LI */
+.links-headers li{
+
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+/* LI (HOVER) */
+.links-headers li:hover{
+    background-color: #9f9fa7;
+}
+
+
+/* ---- BTNS-BUSCAR ---- */
+.btns-buscar{
+    border-radius: 20px;
+    background-color: var(--orange);
+
+
+}
+
+/* LI */
+.btns-buscar li{
+    background-color: var(--orange);
+}
+
+/* LI (HOVER) */
+.btns-buscar li:hover{
+    background-color: #ffb812de;
+}
+
+/* ---- BTNS-OPEN ---- */
+.btns-open{
+    display: flex;
+}
+
+/* BUTTON */
+.btns-open button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
