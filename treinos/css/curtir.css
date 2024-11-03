@@ -1,5 +1,5 @@
 
-
+/* --------------------- CURTIR ----------------- */
 .curtir{
     display: flex;
     flex-direction: column;
@@ -7,19 +7,21 @@
     padding-bottom: 300px;
 }
 
+/* ---- TEXT-CURTIR ---- */
 .text-curtir{
     display: flex;
     justify-content: center;
 
 }
 
+/* H2 */
 .text-curtir h2{
     font-size: 32px;
     color: var(--black);
     font-weight: 700;
 }
 
-
+/* ---- FORMAS-PAGAR ---- */
 .formas-pagar{
     display: flex;
     flex-direction: column;
@@ -30,6 +32,7 @@
     background: radial-gradient(211.72% 211.72% at 50% 100%, #231f20 14.03%, rgba(35, 31, 32, 0) 100%);
 }
 
+/* H4 */
 .formas-pagar h4{
     font-size: 20px;
     font-weight: 700;
@@ -37,11 +40,13 @@
     text-transform: uppercase;
 }
 
+/* STRONG */
 .formas-pagar strong{
     font-size: 40px;
     color: var(--orange);
 }
 
+/* P */
 .formas-pagar p{
     padding-top: 40px;
     color: white;
@@ -49,6 +54,7 @@
     line-height: 16.8px;
 }
 
+/* ---- BTN-CURTIR ---- */
 .btn-curtir{
     display: flex;
     justify-content: center;
@@ -56,6 +62,7 @@
 
 }
 
+/* A */
 .btn-curtir a{
     display: flex;
     justify-content: center;
@@ -70,10 +77,9 @@
     font-weight: 700;
 }
 
-
-
-
-
-
+/* HOVER (A) */
+.btn-curtir a:hover{
+    background-color: red;
+}
 
 
