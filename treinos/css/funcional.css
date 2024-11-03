@@ -1,0 +1,89 @@
+
+
+.funcional{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+.container-funcional{
+    display: flex;
+    width: 100%;
+    height: 400px;
+
+}
+.text-funcional{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+
+}
+
+
+.text-funcional h2{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: var(--monts);
+    color: var(--black);
+    width: 350px;
+}
+
+.text-funcional p{
+    width: 350px;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.btn-escolher-gmy{
+    display: flex;
+    max-width: 303px;
+    padding: 12px 55px;
+    background-color: var(--red);
+    border-radius: 26px;
+
+    cursor: pointer;
+    
+}
+
+.btn-escolher-gmy a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-escolher-gmy:hover{
+    background-color: red;
+}
+
+
+
+.img-funcional{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 300px;
+
+
+
+}
+
+.img-funcional img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+
+    
+}
+
+
+
+
+

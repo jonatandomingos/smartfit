@@ -5,6 +5,7 @@
 /* IMPORTS */
 
 @import url(/treinos/css/headers.css);
+@import url(/treinos/css/funcional.css);
 
 
 
@@ -13,6 +14,7 @@
     --orange: #ffb612;
     --gray: #e2e8f0;
     --black2: #1a1a1a;
+    --red: #d52b1e;
     --monts : "Montserrat", serif;
     
 
