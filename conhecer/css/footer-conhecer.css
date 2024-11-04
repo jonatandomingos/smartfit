@@ -1,13 +1,12 @@
 
-
+/* ------------- FOOTER-CONHECER --------------- */
 .footer-conhecer{
     display: flex;
     flex-direction: column;
-
-
-
 }
 
+
+/* ---- CONTAINER-FOOTER ---- */
 .container-footer{
     display: flex;
     justify-content: center;
@@ -20,10 +19,12 @@
     
 }
 
+/* ---- DIREITOS ---- */
 .direitos{
     display: flex;
 }
 
+/* P */
 .direitos p{
     font-size: 20px;
     color: rgb(154, 154, 154);
@@ -31,6 +32,7 @@
     font-family: var(--monts);
 }
 
+/* ---- REDES-SOCIAL-FOOTER ---- */
 .redes-social-footer{
     display: flex;
     gap: 20px;
