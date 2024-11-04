@@ -1,5 +1,5 @@
 
-
+/* ------------ COACH ----------- */
 .coach{
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@
     padding-top: 200px;
 }
 
+/* ---- TEXT-COACH ---- */
 .text-coach{
     display: flex;
     flex-direction: column;
@@ -16,6 +17,7 @@
     align-items: center;
 }
 
+/* H2 */
 .text-coach h2{
     font-size: 36px;
     font-weight: 500;
@@ -24,12 +26,14 @@
 
 }
 
+/* STRONG */
 .text-coach strong{
     font-size: 36px;
     font-weight: 900;
     font-family: var(--monts);
 }
 
+/* P */
 .text-coach p{
     font-size: 18px;
     font-weight: 400;
@@ -38,17 +42,16 @@
 }
 
 
-
+/*---- CONTAINER-COACH ---- */
 .container-coach{
     display: flex;
     justify-content: center;
     gap: 20px;
-    margin-left: 100px;
+
 
 }
 
-
-
+/* ---- ITENS-COACH ---- */
 .itens-coach{
     display: flex;
     flex-direction: column;
@@ -64,15 +67,19 @@
     position: relative;
 }
 
+/* ---- IMG-COACH ---- */
 .img-coach{
     display: flex;
     width: 222px;
 
 }
 
+/* IMG */
 .img-coach img{
     width: 100%;
 }
+
+/* ---- TEXTOS-COACH ---- */
 .textos-coach{
     display: flex;
     flex-direction: column;
@@ -82,6 +89,7 @@
     width: 222px;
 }
 
+/* H3 */
 .textos-coach h3{
     text-align: center;
     font-size: 20px;
@@ -89,6 +97,7 @@
 
 }
 
+/* P */
 .textos-coach p{
     font-size: 12px;
     font-weight: 400;
@@ -100,11 +109,12 @@
     top: 230px;
 }
 
+/* ---- BTN-QUERO-COACH ---- */
 .btn-quero-coach{
     display: flex;
 }
 
-
+/* A */
 .btn-quero-coach a{
     display: flex;
     justify-content: center;
@@ -125,12 +135,9 @@
 
     transition: all .2s;
 }
-
+/* HOVER */
 .btn-quero-coach a:hover{
     background-color: red;
 }
-
-
-
 
 
