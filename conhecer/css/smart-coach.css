@@ -1,0 +1,125 @@
+
+/* ------------- SMART-COACH ------------- */
+.smart-coach{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+/* ---- TEXT-SMART-COACH ---- */
+.text-smart-coach{
+    display: flex;
+    justify-content: center;
+}
+
+/* H2 */
+.text-smart-coach h2{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--monts);
+}
+
+/* STRONG */
+.text-smart-coach strong{
+    font-weight: 900;
+}
+
+/* ---- CONTAINER-SMART-COACH ---- */
+.container-smart-coach{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* ---- ITENS-COACH-SMART ---- */
+.itens-coach-smart{
+    display: flex;
+    flex-direction: column;
+
+    height: 333px;
+    width: 222px;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* ---- IMG-COACH-SMART ---- */
+.imgs-coach-smart{
+    display: flex;
+}
+
+/* IMG */
+.imgs-coach-smart img{
+    width: 100%;
+}
+
+/* ---- TITULOS ---- */
+.titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    height: 42px;
+
+
+}
+
+/* SPAN */
+.titulos span{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ---- TEXTOS-P ----*/
+.textos-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+/* P */
+.textos-p p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--monts);
+    color: white;
+}
+
+/* ---- BTN-QUERO-SMART-COACH ---- */
+.btn-quero-smart-coach{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* A */
+.btn-quero-smart-coach a{
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 48px;
+    background-color: var(--red);
+    border-radius: 30px;
+
+    transition: all .2s;
+}
+
+/* SPAN */
+.btn-quero-smart-coach a span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* HOVER (A)*/
+.btn-quero-smart-coach a:hover{
+    background-color: red;
+}
+
