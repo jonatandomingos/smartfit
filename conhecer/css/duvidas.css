@@ -1,0 +1,106 @@
+
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+    background-color: rgb(34, 34, 34);
+    padding-block: 50px;
+    /* height: 1315px; */
+}
+
+.title-duvidas{
+    display: flex;
+    justify-content: center;
+}
+
+.title-duvidas h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.container-duvidas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 200px;
+    /* height: 1315px; */
+    height: auto;
+
+}
+
+.itens-duvidas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    height: 58px;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+
+    border: 2px solid #404040
+}
+
+.itens-duvidas h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn-quero-duvidas{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+
+.btn-quero-duvidas a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 48px;
+    background-color: var(--red);
+    border-radius: 30px;
+    transition: all .2s;
+}
+
+.btn-quero-duvidas a span{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-quero-duvidas a:hover{
+    background-color: red;
+}
+
+
+.linhas{
+    display: flex;
+}
+
+.linhas span{
+    width: 100%;
+    border-top: 1px solid #4a4a4a;
+}
+
+
+.information{
+    display: flex;
+    flex-direction: column;
+    color: rgb(154, 154, 154);
+}
+
+.information span{
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.information p{
+    font-size: 12px;
+}
