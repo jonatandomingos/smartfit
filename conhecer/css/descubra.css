@@ -1,5 +1,5 @@
 
-
+/* ------------------ DESCUBRA ------------- */
 .descubra{
     display: flex;
     flex-direction: column;
@@ -7,11 +7,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 300px;
+   
     height: 437px;
 
 }
 
+/* ---- CONTAINER-DESCUBRA ---- */
 .container-descubra{
     display: flex;
     width: 100%;
@@ -19,6 +20,7 @@
     
 }
 
+/* ---- TEXT-DESCUBRA ---- */
 .text-descubra{
     display: flex;
     justify-content: center;
@@ -31,6 +33,7 @@
     padding-top: 50px;
 }
 
+/* H2 */
 .text-descubra h2{
     font-size: 48px;
     color: white;
@@ -38,11 +41,13 @@
     font-family: var(--monts);
 }
 
+/* STRONG */
 .text-descubra strong{
     color: var(--orange);
     font-weight: 700;
 }
 
+/* P */
 .text-descubra p{
     font-size: 26px;
     font-weight: 400;
@@ -52,11 +57,13 @@
     
 }
 
+/* ---- BTN-ASSINAR ---- */
 .btn-assinar{
     display: flex;
     
 }
 
+/* A */
 .btn-assinar a{
     display: flex;
     justify-content: center;
@@ -76,7 +83,26 @@
 
 }
 
+.text-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 50px;
 
+}
 
+.text-p p{
+    width: 60%;
+    text-align: center;
 
+    font-size: 18px;
+    font-family: var(--monts);
+    font-weight: 400;
+
+}
+
+.text-p strong{
+    color: black;
+}
 
