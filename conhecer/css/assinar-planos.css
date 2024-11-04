@@ -1,0 +1,120 @@
+
+
+.assinar-planos{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+.text-planos{
+    display: flex;
+    justify-content: center;
+}
+
+.text-planos h2{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: var(--monts);
+}
+
+.text-planos strong{
+    font-weight: 900;
+}
+
+
+.container-planos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+.imgs-planos{
+    display: flex;
+    padding-right: 50px;
+    border-right: 1px solid var(--orange);
+}
+
+.imgs-planos img{
+    width: 228px;
+    object-fit: contain;
+}
+
+.text-li{
+    display: flex;
+    flex-direction: column;
+
+    padding-right: 50px;
+    padding-left: 50px;
+    border-right: 1px solid var(--orange);
+
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--monts);
+    color: #212121;
+}
+
+
+.dolar{
+    display: flex;
+    padding-left: 50px;
+}
+
+.dolar p{
+    font-size: 18px;
+}
+
+.dolar strong{
+    font-size: 70px;
+}
+
+
+.valor{
+    display: flex;
+    flex-direction: column;
+}
+
+.valor p{
+    font-weight: 900;
+}
+
+.anual{
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+.btn-quero-plano{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.btn-quero-plano a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 48px;
+    background-color: var(--red);
+    border-radius: 30px;
+    transition: all .2s;
+}
+
+
+.btn-quero-plano a span{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+.btn-quero-plano a:hover{
+    background-color: red;
+}
