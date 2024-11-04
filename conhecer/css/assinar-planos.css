@@ -1,5 +1,5 @@
 
-
+/* ----------------- ASSINAR-PLANOS ---------- */
 .assinar-planos{
     display: flex;
     flex-direction: column;
@@ -7,22 +7,26 @@
     padding-bottom: 300px;
 }
 
+/* ---- TEXT-PLANOS ---- */
 .text-planos{
     display: flex;
     justify-content: center;
 }
 
+/* H2 */
 .text-planos h2{
     font-size: 36px;
     font-weight: 500;
     font-family: var(--monts);
 }
 
+/* STRONG */
 .text-planos strong{
     font-weight: 900;
 }
 
 
+/* ---- CONTAINER-PLANOS ---- */
 .container-planos{
     display: flex;
     justify-content: center;
@@ -30,18 +34,20 @@
 
 }
 
-
+/* ---- IMGS-PLANOS ---- */
 .imgs-planos{
     display: flex;
     padding-right: 50px;
     border-right: 1px solid var(--orange);
 }
 
+/* IMG */
 .imgs-planos img{
     width: 228px;
     object-fit: contain;
 }
 
+/* ---- TEXT-LI ---- */
 .text-li{
     display: flex;
     flex-direction: column;
@@ -56,44 +62,48 @@
     color: #212121;
 }
 
-
+/* ---- DOLAR ---- */
 .dolar{
     display: flex;
     padding-left: 50px;
 }
 
+/* P */
 .dolar p{
     font-size: 18px;
 }
 
+/* STRONG */
 .dolar strong{
     font-size: 70px;
 }
 
-
+/* ---- VALOR ---- */
 .valor{
     display: flex;
     flex-direction: column;
 }
 
+/* P */
 .valor p{
     font-weight: 900;
 }
 
+/* ---- ANUAL ---- */
 .anual{
     font-size: 18px;
     font-weight: 900;
     font-style: normal;
 }
 
-
+/* ---- BTN-QUERO-PLANO ---- */
 .btn-quero-plano{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-
+/* A */
 .btn-quero-plano a{
     text-decoration: none;
     display: flex;
@@ -107,14 +117,15 @@
 }
 
 
+/* SPAN */
 .btn-quero-plano a span{
     font-size: 20px;
     color: white;
     font-weight: 700;
 }
 
-
-
+/* HOVER (A) */
 .btn-quero-plano a:hover{
     background-color: red;
 }
+
