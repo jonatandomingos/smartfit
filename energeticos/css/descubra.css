@@ -1,0 +1,121 @@
+
+
+
+/* ------------------ DESCUBRA ------------- */
+.descubra{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+    height: 437px;
+
+    padding-bottom: 200px;
+
+}
+
+/* ---- CONTAINER-DESCUBRA ---- */
+.container-descubra{
+    display: flex;
+    width: 100%;
+    height: 437px;
+
+    background-image: url(https://energy.smartfit.com.br/images/Header_DESK2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    padding-bottom: 50px;
+    
+}
+
+/* ---- TEXT-DESCUBRA ---- */
+.text-descubra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+
+
+    padding-top: 50px;
+}
+
+/* H2 */
+.text-descubra h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 200;
+    font-family: var(--monts);
+}
+
+/* STRONG */
+.text-descubra strong{
+    color: var(--orange);
+    font-weight: 700;
+}
+
+/* P */
+.text-descubra p{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: var(--monts);
+    color: white;
+    
+    
+}
+
+/* ---- BTN-ASSINAR ---- */
+.btn-assinar{
+    display: flex;
+    
+}
+
+/* A */
+.btn-assinar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    width: 300px;
+    height: 48px;
+    background-color: #D52B1E;
+    border-radius: 10px;
+
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: var(--monts);
+    font-weight: 700;
+
+}
+
+.text-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 50px;
+
+}
+
+.text-p p{
+    width: 60%;
+    text-align: center;
+
+    font-size: 18px;
+    font-family: var(--monts);
+    font-weight: 400;
+
+    color: #808080;
+
+}
+
+.text-p strong{
+    color: #808080;
+    font-weight: 700;
+}
+
