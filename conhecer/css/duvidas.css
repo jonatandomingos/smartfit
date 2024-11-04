@@ -1,5 +1,5 @@
 
-
+/* ----------------- DUVIDAS ----------- */
 .duvidas{
     display: flex;
     flex-direction: column;
@@ -10,17 +10,20 @@
     /* height: 1315px; */
 }
 
+/* ---- TITLE-DUVIDAS ---- */
 .title-duvidas{
     display: flex;
     justify-content: center;
 }
 
+/* H2 */
 .title-duvidas h2{
     font-size: 30px;
     font-weight: 700;
     color: white;
 }
 
+/* ---- CONTAINER-DUVIDAS ---- */
 .container-duvidas{
     display: flex;
     flex-direction: column;
@@ -31,6 +34,7 @@
 
 }
 
+/* ---- ITENS-DUVIDAS ---- */
 .itens-duvidas{
     display: flex;
     justify-content: space-between;
@@ -43,12 +47,14 @@
     border: 2px solid #404040
 }
 
+/* H3 */
 .itens-duvidas h3{
     font-size: 18px;
     font-weight: bold;
     color: white;
 }
 
+/* ---- BTN-QUERO-DUVIDAS ---- */
 .btn-quero-duvidas{
     display: flex;
     justify-content: center;
@@ -57,6 +63,7 @@
 }
 
 
+/* A */
 .btn-quero-duvidas a{
     text-decoration: none;
     display: flex;
@@ -69,12 +76,14 @@
     transition: all .2s;
 }
 
+/* SPAN */
 .btn-quero-duvidas a span{
     font-size: 20px;
     color: white;
     font-weight: 700;
 }
 
+/* HOVER (A) */
 .btn-quero-duvidas a:hover{
     background-color: red;
 }
