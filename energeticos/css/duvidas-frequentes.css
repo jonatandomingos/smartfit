@@ -1,6 +1,6 @@
 
 
-
+/* ----------------- DUVIDAS-FREQUENTES ---------------- */
 .duvidas-frequentes{
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     padding-bottom: 300px;
 }
 
+/* ---- CONTAINER-FREQUENTES ---- */
 .container-frequentes{
     display: flex;
     flex-direction: column;
@@ -16,14 +17,14 @@
 
 }
 
-
+/* ---- TITLE-FREQUENTES ---- */
 .title-frequentes{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-
+/* H2 */
 .title-frequentes h2{
     font-size: 32px;
     font-family: var(--monts);
@@ -31,11 +32,12 @@
     color: #888888;
 }
 
-
+/* ---- BTN-FREQUENTE ---- */
 .btn-frequente{
     display: flex;
 }
 
+/* A */
 .btn-frequente a{
     display: flex;
     justify-content: center;
@@ -48,7 +50,7 @@
     border-radius: 12px;
 }
 
-
+/* SPAN */
 .btn-frequente a span{
     font-size: 18px;
     font-family: var(--monts);
@@ -56,6 +58,7 @@
     font-weight: 800;
 }
 
+/* ---- INFO-FREQUENTE ---- */
 .info-frequente{
     margin-top: 100px;
     display: flex;
@@ -66,12 +69,16 @@
     width: 620px;
 }
 
+/* SPAN */
 .info-frequente span{
     color: #808080;
 }
 
 
+/* P */
 .info-frequente p{
     color: #808080;
     line-height: 25px;
 }
+
+
