@@ -6,6 +6,7 @@
 
     padding-bottom: 50px;
 
+
 }
 
 /* ---- CONTAINER-NUTRICIONAL ---- */
@@ -62,7 +63,7 @@
 .imgs-two{
     display: flex;
     flex: 1;
-
+   
 }
 
 
