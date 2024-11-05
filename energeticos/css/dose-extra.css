@@ -1,13 +1,16 @@
 
-
+/* ------------- DOSE-EXTRA ---------------- */
 .dose-extra{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
+
+    overflow-x: hidden;
 
 }
 
+/* ---- CONTAINER-EXTRA ---- */
 .container-extra{
     display: flex;
     flex-direction: column;
@@ -18,6 +21,7 @@
 
 }
 
+/* ---- CONTEUDO-EXTRA ---- */
 .conteudo-extra{
     display: flex;
     margin: 0px 200px;
@@ -26,7 +30,7 @@
     width: 100%;
 }
 
-
+/* ---- TITLE-EXTRA ---- */
 .title-extra{
     display: flex;
     flex-direction: column;
@@ -37,6 +41,7 @@
 
 }
 
+/* H2 */
 .title-extra h2{
     text-transform: uppercase;
     color: var(--black);
@@ -46,26 +51,28 @@
 
 }
 
-
+/* P */
 .title-extra p{
     font-size: 18px;
     font-family: var(--monts);
 
     font-weight: 500;
 }
+
+/* ---- IMG-EXTRA ---- */
 .img-extra{
     display: flex;
     flex: 1;
 
 }
 
-
+/* ---- SUB-EXTRA ---- */
 .sub-extra{
     display: flex;
     padding-left: 200px;
 }
 
-
+/* P */
 .sub-extra p{
     font-size: 20px;
     font-family: var(--monts);
