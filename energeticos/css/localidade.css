@@ -1,0 +1,56 @@
+
+
+.localidade{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+
+}
+
+
+.containers-locais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.title-locais{
+    display: flex;
+
+}
+
+.title-locais h2{
+    font-size: 32px;
+    font-family: var(--monts);
+    font-weight: 800;
+    color: #888888;
+}
+
+.inputs-locais{
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+
+.inputs-locais input{
+    height: 40px;
+    width: 600px;
+
+
+    border-radius: 12px;
+    border: 1px solid #ced4da;
+    background-color: white;
+}
+
+.inputs-locais input::placeholder{
+    padding-left: 10px;
+    color: #212529;
+    font-weight: 300;
+
+}
+
