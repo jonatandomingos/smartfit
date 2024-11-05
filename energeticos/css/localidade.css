@@ -1,14 +1,14 @@
 
-
+/* ------------ LOCALIDADE ----------- */
 .localidade{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
 
 }
 
-
+/* ---- CONTAINER-LOCAIS ---- */
 .containers-locais{
     display: flex;
     flex-direction: column;
@@ -17,11 +17,13 @@
     gap: 40px;
 }
 
+/* ---- TITLE-LOCAIS ---- */
 .title-locais{
     display: flex;
 
 }
 
+/* H2 */
 .title-locais h2{
     font-size: 32px;
     font-family: var(--monts);
@@ -29,14 +31,14 @@
     color: #888888;
 }
 
+/* ---- INPUTS-LOCAIS ---- */
 .inputs-locais{
     display: flex;
     justify-content: center;
 
-    
-
 }
 
+/* INPUT */
 .inputs-locais input{
     height: 40px;
     width: 600px;
@@ -47,6 +49,7 @@
     background-color: white;
 }
 
+/* PLACEHOLDER  */
 .inputs-locais input::placeholder{
     padding-left: 10px;
     color: #212529;
