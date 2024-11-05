@@ -1,0 +1,73 @@
+
+
+.dose-extra{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+
+}
+
+.container-extra{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 430.53px;
+    background-color: #F9B333;
+    opacity: 1;
+
+}
+
+.conteudo-extra{
+    display: flex;
+    margin: 0px 200px;
+
+    height: 430.53px;
+    width: 100%;
+}
+
+
+.title-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    flex: 1;
+
+}
+
+.title-extra h2{
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 36px;
+    font-weight: 800;
+    font-family: var(--monts);
+
+}
+
+
+.title-extra p{
+    font-size: 18px;
+    font-family: var(--monts);
+
+    font-weight: 500;
+}
+.img-extra{
+    display: flex;
+    flex: 1;
+
+}
+
+
+.sub-extra{
+    display: flex;
+    padding-left: 200px;
+}
+
+
+.sub-extra p{
+    font-size: 20px;
+    font-family: var(--monts);
+}
+
