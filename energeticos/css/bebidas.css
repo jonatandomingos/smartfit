@@ -1,0 +1,224 @@
+
+
+.bebidas{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+    margin-top: 200px;
+}
+
+.title-bebidas{
+    display: flex;
+    justify-content: center;
+}
+
+.title-bebidas h3{
+    font-size: 30px;
+    text-align: center;
+    color: #808080;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: var(--monts);
+}
+
+.container-bebidas{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.itens-bebidas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.itens-bebidas img{
+    width: 76px;
+    height: 76px;
+}
+
+.itens-bebidas span{
+    font-weight: 800;
+    color: #808080;
+}
+
+.img-precos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.btn-bebidas{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 50px;
+}
+
+.btn-bebidas a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color: #b02a37;
+    border-radius: 10px;
+}
+
+.btn-bebidas a span{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--monts);
+}
+
+.text-bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.text-bebidas p{
+    margin-top: 50px;
+    width: 500px;
+    color: #808080;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container-sabor{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.itens-sabor{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: #C8C8C8;
+    border-radius: 10px;
+}
+
+
+
+.img-sabor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-sabor img{
+    width: 200px;
+}
+
+
+.img-sabor h4{
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #676767;
+}
+
+.sub-text{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sub-text span{
+    text-align: center;
+    font-weight: 700;
+    color: #808080;
+}
+
+.sub-text p{
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.sub-p{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 20px;
+    gap: 20px;
+}
+
+.sub-p p{
+    font-size: 12px;
+    font-weight: 300;
+    color: #808080;
+
+    text-align: center;
+
+}
+
+.itens-sabor2{
+    display: flex;
+    width: 300px;
+    height: 500px;
+
+    background-color: #E8640D;
+    border: 5px solid #FABB06;
+}
+
+.img-sabor2{
+    display: flex;
+    padding-inline: 20px;
+}
+
+.img-sabor2 h4{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.sub-text2{
+    display: flex;
+    text-align: center;
+}
+
+.sub-text2 span{
+    font-size: 20px;
+    color: white;
+    font-family: var(--monts);
+}
+
+
+.sub-p2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.sub-p2 p{
+    font-size: 16px;
+    color: white;
+}
+
+
+.novo-sabor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FABB06;
+    height: 100%;
+}
+
+.novo-sabor h4{
+    text-transform: uppercase;
+    font-family: var(--monts);
+    color: white;
+}
