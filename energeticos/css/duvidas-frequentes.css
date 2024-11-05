@@ -1,0 +1,77 @@
+
+
+
+.duvidas-frequentes{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+.container-frequentes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.title-frequentes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.title-frequentes h2{
+    font-size: 32px;
+    font-family: var(--monts);
+    font-weight: 800;
+    color: #888888;
+}
+
+
+.btn-frequente{
+    display: flex;
+}
+
+.btn-frequente a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+    height: 40px;
+    width: 250px;
+    background-color: #ffc107;
+    border-radius: 12px;
+}
+
+
+.btn-frequente a span{
+    font-size: 18px;
+    font-family: var(--monts);
+    color: var(--black);
+    font-weight: 800;
+}
+
+.info-frequente{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 620px;
+}
+
+.info-frequente span{
+    color: #808080;
+}
+
+
+.info-frequente p{
+    color: #808080;
+    line-height: 25px;
+}
