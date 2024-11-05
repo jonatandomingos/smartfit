@@ -1,5 +1,5 @@
 
-
+/* ---------- BEBIDAS --------------- */
 .bebidas{
     display: flex;
     flex-direction: column;
@@ -8,11 +8,13 @@
     margin-top: 200px;
 }
 
+/* ---- TITLE-BEBIDAS ---- */
 .title-bebidas{
     display: flex;
     justify-content: center;
 }
 
+/* H3 */
 .title-bebidas h3{
     font-size: 30px;
     text-align: center;
@@ -22,6 +24,7 @@
     font-family: var(--monts);
 }
 
+/* ---- CONTAINER-BEBIDAS ---- */
 .container-bebidas{
     display: flex;
     justify-content: center;
@@ -29,6 +32,7 @@
 }
 
 
+/* ---- ITENS-BEBIDAS ---- */
 .itens-bebidas{
     display: flex;
     flex-direction: column;
@@ -36,30 +40,33 @@
     gap: 20px;
 }
 
+/* IIMG */
 .itens-bebidas img{
     width: 76px;
     height: 76px;
 }
 
+/* SPAN */
 .itens-bebidas span{
     font-weight: 800;
     color: #808080;
 }
 
+/* ---- IMG-PRECOS ---- */
 .img-precos{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-
+/* ---- BTN-BEBIDAS ---- */
 .btn-bebidas{
     display: flex;
     justify-content: center;
 
     margin-top: 50px;
 }
-
+/* A */
 .btn-bebidas a{
     text-decoration: none;
     display: flex;
@@ -71,6 +78,7 @@
     border-radius: 10px;
 }
 
+/* SPAN (A) */
 .btn-bebidas a span{
     font-size: 18px;
     color: white;
@@ -79,6 +87,7 @@
     font-family: var(--monts);
 }
 
+/* ---- TEXT-BEBIDAS ---- */
 .text-bebidas{
     display: flex;
     justify-content: center;
@@ -86,7 +95,7 @@
     
 }
 
-
+/* P */
 .text-bebidas p{
     margin-top: 50px;
     width: 500px;
@@ -96,12 +105,14 @@
     font-weight: 500;
 }
 
+/* ---- CONTAINER-SABOR ---- */
 .container-sabor{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
+/* ---- ITENS-SABOR ---- */
 .itens-sabor{
     display: flex;
     flex-direction: column;
@@ -111,8 +122,7 @@
     border-radius: 10px;
 }
 
-
-
+/* ---- IMG-SABOR ---- */
 .img-sabor{
     display: flex;
     flex-direction: column;
@@ -120,11 +130,12 @@
     justify-content: center;
 }
 
+/* IMG */
 .img-sabor img{
     width: 200px;
 }
 
-
+/* H4 */
 .img-sabor h4{
     font-size: 14px;
     font-weight: 800;
@@ -133,23 +144,26 @@
     color: #676767;
 }
 
+/* ---- SUB-TEXT ---- */
 .sub-text{
     display: flex;
     justify-content: center;
 }
 
-
+/* SPAN */
 .sub-text span{
     text-align: center;
     font-weight: 700;
     color: #808080;
 }
 
+/* P */
 .sub-text p{
     font-size: 10px;
     font-weight: 300;
 }
 
+/* ---- SUB-P ---- */
 .sub-p{
     display: flex;
     flex-direction: column;
@@ -157,6 +171,7 @@
     gap: 20px;
 }
 
+/* P */
 .sub-p p{
     font-size: 12px;
     font-weight: 300;
@@ -165,7 +180,7 @@
     text-align: center;
 
 }
-
+/* ---- ITENS-SABOR2 ---- */
 .itens-sabor2{
     display: flex;
     width: 300px;
@@ -175,40 +190,45 @@
     border: 5px solid #FABB06;
 }
 
+/* ---- IMG-SABOR2 ---- */
 .img-sabor2{
     display: flex;
     padding-inline: 20px;
 }
 
+/* H4 */
 .img-sabor2 h4{
     font-size: 25px;
     text-align: center;
     color: white;
 }
 
+/* ---- SUB-TEXT2 ---- */
 .sub-text2{
     display: flex;
     text-align: center;
 }
 
+/* SPAN */
 .sub-text2 span{
     font-size: 20px;
     color: white;
     font-family: var(--monts);
 }
 
-
+/* ---- SUB-P2 ---- */
 .sub-p2{
     display: flex;
     margin-top: 20px;
 }
 
+/* P */
 .sub-p2 p{
     font-size: 16px;
     color: white;
 }
 
-
+/* ---- NOVO-SABOR ---- */
 .novo-sabor{
     display: flex;
     justify-content: center;
@@ -217,8 +237,10 @@
     height: 100%;
 }
 
+/* H4 */
 .novo-sabor h4{
     text-transform: uppercase;
     font-family: var(--monts);
     color: white;
 }
+
