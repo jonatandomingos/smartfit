@@ -1,5 +1,5 @@
 
-
+/* ---------------- HEADERS-BODY ----------- */
 .headers-body{
     display: flex;
     align-items: center;
@@ -10,10 +10,12 @@
     padding: 0px 200px;
 }
 
+/* ---- LOGO-BODY ---- */
 .logo-body{
     display: flex;
 }
 
+/* IMG */
 .logo-body img{
     height: 50px;
     
@@ -24,14 +26,14 @@
     align-items: center;
 }
 
-
+/* ---- LINKS-BODY LI ---- */
 .links-body li{
     display: flex;
     list-style: none;
     gap: 40px;
 }
 
-
+/* A */
 .links-body a{
     text-decoration: none;
     font-family: var(--monts);
@@ -39,11 +41,12 @@
 
     transition: all .2s;
 }
-
+/* HOVER (A) */
 .links-body a:hover{
     color: #7a7a7a;
 }
 
+/* BIO */
 .bio{
     display: flex;
     justify-content: center;
