@@ -1,0 +1,84 @@
+
+
+.nutricional{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+
+}
+
+.container-nutricional{
+    display: flex;
+    height: 544px;
+    width: 100%;
+   background-image: url(https://energy.smartfit.com.br/images/Tela-da-maquinaII1.jpg);
+
+}
+
+
+.imgs-one{
+    display: flex;
+    flex: 2;
+    background-color: blue;
+   
+}
+
+
+.imgs-one img{
+    object-fit: cover;
+}
+.tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-block: 50px;
+    padding-inline: 50px;
+    flex: 2;
+    background-color: black;
+}
+
+.tabela p{
+    font-size: 25px;
+    color: white;
+    font-family: var(--monts);
+    text-align: center;
+}
+
+.tabela strong{
+    font-size: 25px;
+    font-family: var(--monts);
+    color: var(--orange);
+    text-transform: uppercase;
+    text-align: center;
+}
+.imgs-two{
+    display: flex;
+    flex: 1;
+
+}
+
+.btn-tabela{
+    display: flex;
+}
+
+.btn-tabela a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+
+.btn-tabela a span{
+    font-size: 20px;
+    font-family: var(--monts);
+    text-transform: uppercase;
+    color: var(--black);
+    font-weight: 800;
+}
+
