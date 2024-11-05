@@ -1,5 +1,5 @@
 
-
+/* ----------NUTRICIONAL ----------- */
 .nutricional{
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
 
 }
 
+/* ---- CONTAINER-NUTRICIONAL ---- */
 .container-nutricional{
     display: flex;
     height: 544px;
@@ -16,7 +17,7 @@
 
 }
 
-
+/* ---- IMG-ONE ---- */
 .imgs-one{
     display: flex;
     flex: 2;
@@ -24,10 +25,12 @@
    
 }
 
-
+/* IMG */
 .imgs-one img{
     object-fit: cover;
 }
+
+/* ---- TABELA ---- */
 .tabela{
     display: flex;
     flex-direction: column;
@@ -38,6 +41,7 @@
     background-color: black;
 }
 
+/* P */
 .tabela p{
     font-size: 25px;
     color: white;
@@ -45,6 +49,7 @@
     text-align: center;
 }
 
+/* STRONG */
 .tabela strong{
     font-size: 25px;
     font-family: var(--monts);
@@ -52,16 +57,21 @@
     text-transform: uppercase;
     text-align: center;
 }
+
+
 .imgs-two{
     display: flex;
     flex: 1;
 
 }
 
+
+/* ---- BTN-TABELA ---- */
 .btn-tabela{
     display: flex;
 }
 
+/* A */
 .btn-tabela a{
     text-decoration: none;
     display: flex;
@@ -73,7 +83,7 @@
     border-radius: 10px;
 }
 
-
+/* SPAN (A) */
 .btn-tabela a span{
     font-size: 20px;
     font-family: var(--monts);
