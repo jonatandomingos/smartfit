@@ -1,12 +1,15 @@
+
+
+/* ------------ DOSE-ENERGIA ------------ */
 .dose-energia {
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
-
+    padding-bottom: 50px;
 
 }
 
+/* ---- CONTAINER-DOSE ---- */
 .container-dose {
     display: flex;
     width: 100%;
@@ -18,6 +21,7 @@
     background-color: #000;
 }
 
+/* ---- CONTEUDO ---- */
 .conteudo {
     display: flex;
     flex-direction: column;
@@ -25,11 +29,13 @@
     margin-left: 100px;
 }
 
+/* ---- TITLE-DOSE ---- */
 .title-dose {
     display: flex;
 
 }
 
+/* H2 */
 .title-dose h2 {
     font-size: 46px;
     font-family: var(--monts);
@@ -38,32 +44,36 @@
     text-transform: uppercase;
 }
 
-
+/* ---- TEXT-DOSE ---- */
 .text-dose {
     display: flex;
     flex-direction: column;
     font-family: var(--monts);
 }
 
+/* LI */
 .text-dose li {
     color: white;
     font-size: 20px;
 }
-
+/* SPAN */
 .text-dose li span {
     font-size: 16px;
 
 }
 
+/* SPAN */
 .text-dose span {
     color: white;
 }
 
+/* ---- BTN-DOSE ---- */
 .btn-dose{
     display: flex;
     margin-top: 20px;
 }
 
+/* A */
 .btn-dose a{
     text-decoration: none;
     display: flex;
@@ -75,7 +85,7 @@
     border-radius: 10px;
 }
 
-
+/* SPAN (A) */
 .btn-dose a span{
     font-size: 18px;
     color: white;
@@ -83,7 +93,4 @@
     text-transform: uppercase;
     font-family: var(--monts);
 }
-
-
-
 
