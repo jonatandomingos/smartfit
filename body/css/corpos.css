@@ -1,13 +1,13 @@
 
-
+/* ---------- CORPOS ------------ */
 .corpos{
     display: flex;
     flex-direction: column;
 
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 }
 
-
+/* ---- TITLE-CORPOS ---- */
 .title-corpos{
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-
+/* H2 */
 .title-corpos h2{
     font-size: 36px;
     color: var(--orange);
@@ -23,12 +23,14 @@
     font-family: var(--monts);
 }
 
+/* P */
 .title-corpos p{
     color: var(--black);
     font-size: 18px;
     font-weight: 600;
 }
 
+/* ---- TEXT-CORPOS ---- */
 .text-corpos{
     display: flex;
     flex-direction: column;
@@ -39,6 +41,7 @@
     margin: 0 auto;
 }
 
+/* P */
 .text-corpos p{
     font-size: 18px;
     font-weight: 600;
@@ -46,7 +49,7 @@
     text-align: center;
 }
 
-
+/* ---- INFO-TESTE ---- */
 .info-teste{
     display: flex;
     width: 100%;
@@ -55,7 +58,7 @@
     margin-top: 50px;
 }
 
-
+/* ---- IMG-TESTE ---- */
 .img-teste{
     display: flex;
     justify-content: flex-end;
@@ -63,6 +66,7 @@
 
 }
 
+/* ---- TEXT-TESTE ---- */
 .text-teste{
     display: flex;
     flex-direction: column;
@@ -71,12 +75,14 @@
     flex: 1;
 }
 
+/* ---- ANALISE-TESTE ---- */
 .analise-teste{
     display: flex;
     flex-direction: column;
 
 }
 
+/* SPAN */
 .analise-teste span{
     font-size: 18px;
     font-family: var(--monts);
@@ -84,6 +90,7 @@
     color: #000000;
 }
 
+/* P */
 .analise-teste p{
     font-size: 16px;
     color: #000000;
