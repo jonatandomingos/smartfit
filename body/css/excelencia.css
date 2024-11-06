@@ -1,6 +1,6 @@
 
 
-
+/* --------------- EXCELENCIA --------- */
 .excelencia{
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     
 }
 
-
+/* ---- CONTAINER-EXCELENCIA ---- */
 .container-excelencia{
     display: flex;
     width: 100%;
@@ -19,6 +19,7 @@
     background-size: cover;
 }
 
+/* ---- INFO-EXCELENCIA ---- */
 .info-excelencia{
     display: flex;
     flex: 1;
@@ -26,7 +27,7 @@
 }
 
 
-
+/* ---- IMG-EXCELENCIA ---- */
 .img-excelencia{
     display: flex;
     flex: 1;
@@ -35,12 +36,14 @@
 
 }
 
+/* IMG */
 .img-excelencia img{
     width: 200px;
     height: 400px;
     object-fit: cover;
 }
 
+/* ---- TITLE-EXCELENCIA ---- */
 .title-excelencia{
     display: flex;
     flex-direction: column;
@@ -49,6 +52,7 @@
     padding-left: 200px;
 }
 
+/* H2 */
 .title-excelencia h2{
     font-size: 30px;
     font-weight: 600;
@@ -57,6 +61,7 @@
     color: var(--orange);
 }
 
+/* P */
 .title-excelencia p{
     font-size: 18px;
     font-weight: 600;
@@ -64,12 +69,13 @@
     font-family: var(--monts);
 }
 
-
+/* ---- BTN-BALANCA ---- */
 .btn-balanca{
     display: flex;
 
 }
 
+/* A */
 .btn-balanca a{
     display: flex;
     justify-content: center;
@@ -81,7 +87,7 @@
     border-radius: 12px;
 }
 
-
+/* SPAN (A) */
 .btn-balanca a span{
     font-size: 20px;
     text-transform: uppercase;
@@ -89,3 +95,4 @@
     color: white;
     font-weight: 700;
 }
+
