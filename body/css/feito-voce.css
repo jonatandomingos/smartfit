@@ -1,5 +1,5 @@
 
-
+/* --------------- FEITO-VOCE -------------- */
 .feito-voce{
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     padding-bottom: 300px;
 }
 
-
+/* ---- CONTAINER-VOCE ---- */
 .container-voce{
     display: flex;
     flex-direction: column;
@@ -22,11 +22,13 @@
     padding: 30px 50px;
 }
 
+/* ---- TITLE-VOCE ---- */
 .title-voce{
     display: flex;
     margin: 0 auto;
 }
 
+/* H2 */
 .title-voce h2{
     font-size: 30px;
     font-family: var(--monts);
@@ -34,7 +36,7 @@
     color: var(--orange);
 }
 
-
+/* ---- ITENS-VOCE ---- */
 .itens-voce{
     display: flex;
     flex-direction: column;
@@ -43,16 +45,15 @@
     gap: 50px;
 }
 
+
 .bi-graph-up-arrow{
     fill: yellow;
 }
 
+/* P */
 .itens-voce p{
     font-size: 25px;
     font-weight: 400;
     color: white;
 }
-
-
-
 
