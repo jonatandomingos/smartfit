@@ -1,0 +1,58 @@
+
+
+.feito-voce{
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 300px;
+}
+
+
+.container-voce{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url(https://smartfitbody.com/wp-content/uploads/2024/09/86a3qqdwx_BannerPrincipal_LP_SFB_fundo-novo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    height: 700px;
+    padding: 30px 50px;
+}
+
+.title-voce{
+    display: flex;
+    margin: 0 auto;
+}
+
+.title-voce h2{
+    font-size: 30px;
+    font-family: var(--monts);
+    font-weight: 700;
+    color: var(--orange);
+}
+
+
+.itens-voce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.bi-graph-up-arrow{
+    fill: yellow;
+}
+
+.itens-voce p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
