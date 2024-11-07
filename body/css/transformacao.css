@@ -1,5 +1,5 @@
 
-
+/* ------------- TRANSFORMACAO ----------- */
 .transformacao{
     display: flex;
     flex-direction: column;
@@ -7,13 +7,14 @@
     padding-bottom: 300px;
 }
 
-
+/* ---- TITLE-TRANSFORMAR ---- */
 .title-transformar{
     display: flex;
     justify-content: center;
     padding-block: 50px;
 }
 
+/* H2 */
 .title-transformar h2{
     font-size: 28px;
     font-family: var(--monts);
@@ -21,6 +22,7 @@
     font-weight: 700;
 }
 
+/* ---- CONTAINER-TRANSFORMAR ---- */
 .container-transformar{
     display: flex;
     width: 100%;
@@ -29,17 +31,19 @@
 
 }
 
+/* ---- IMG-TRANSFORMAR ---- */
 .img-transformar{
     display: flex;
 
 }
 
-
+/* IMG */
 .img-transformar img{
     width: 100%;
     object-fit: cover;
 }
 
+/* ---- INPUTS ---- */
 .inputs{
     display: flex;
     gap: 40px;
@@ -48,6 +52,7 @@
     left: 600px;
 }
 
+/* ---- TEXT-TRANSFORMAR ---- */
 .text-transformar{
     display: flex;
     justify-content: center;
@@ -57,6 +62,7 @@
 
 }
 
+/* H4 */
 .text-transformar h4{
     font-size: 16px;
     color: var(--black);
@@ -65,12 +71,13 @@
 }
 
 
+/* ---- BTN-TRANSFORMAR ---- */
 .btn-transformar{
     display: flex;
     justify-content: center;
 }
 
-
+/* A */
 .btn-transformar a{
     text-decoration: none;
     padding: 20px 70px;
@@ -78,6 +85,7 @@
     border-radius: 6px;
 }
 
+/* SPAN */
 .btn-transformar a span{
     font-size: 20px;
     font-family: var(--monts);
@@ -86,9 +94,5 @@
     font-weight: 700;
 
 }
-
-
-
-
 
 
