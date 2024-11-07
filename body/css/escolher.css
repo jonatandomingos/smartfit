@@ -1,0 +1,162 @@
+
+
+.escolher{
+    display: flex;
+    flex-direction: column;
+
+    background-color: black;
+    width: 100%;
+    height: 900px;
+
+
+    padding-bottom: 300px;
+}
+
+
+.title-escolher{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.title-escolher h2{
+    font-size: 28px;
+    color: var(--orange);
+    font-weight: 700;
+    font-family: var(--monts);
+}
+
+.container-escolher{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0px 100px;
+    height: 700px;
+
+}
+
+
+.itens-escolher{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    height: 700px;
+    background-color: white;
+
+    position: relative;
+}
+
+
+.img-escolher{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 5px;
+}
+
+.titulo-escolher{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-escolher span{
+    color: var(--orange);
+}
+
+.titulo-escolher h4{
+    font-size: 30px;
+    color: var(--orange);
+    font-family: var(--monts);
+    font-weight: 700;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    margin-bottom: 20px;
+}
+
+.sub-excolher{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 10px;
+}
+
+
+.sub-excolher li{
+    font-family: var(--monts);
+    font-weight: 600;
+    color: black;
+
+}
+
+.pagar{
+    display: flex;
+    padding-inline: 20px;
+
+    position: absolute;
+    top: 520px;
+ 
+    
+}
+
+.pagar p{
+    font-size: 12px;
+    color: var(--black);
+    font-family: var(--monts);
+    font-weight: 500;
+    line-height: 22px;
+}
+
+
+
+
+.btns-escolher-quero{
+    display: flex;
+    position: absolute;
+    top: 620px;
+    left: 60px;
+}
+
+.btns-escolher-quero a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    background-color: var(--red);
+    border-radius: 12px;
+}
+
+.btns-escolher-quero a span{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-family: var(--monts);
+
+}
+
+.acessar{
+    display: flex;
+    justify-content: center;
+    padding-block: 50px;
+}
+
+.acessar p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--monts);
+}
+
