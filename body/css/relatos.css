@@ -1,5 +1,5 @@
 
-
+/* --------------- RELATOS ----------- */
 .relatos{
     display: flex;
     flex-direction: column;
@@ -7,12 +7,13 @@
     padding-bottom: 100px;
 }
 
-
+/* ---- TITLE-RELATOS ---- */
 .title-relatos{
     display: flex;
     justify-content: center;
 }
 
+/* H2 */
 .title-relatos h2{
     font-size: 30px;
     font-family: var(--monts);
@@ -20,6 +21,7 @@
     font-weight: 700;
 }
 
+/* ---- CONTAINER-RELATOS ---- */
 .container-relatos{
     display: flex;
     flex-direction: column;
@@ -30,13 +32,14 @@
     background-size: cover;
 }
 
+/* ---- TEXT-RELATOS ---- */
 .text-relatos{
     display: flex;
     margin: 0 auto;
     padding-block: 40px;
 }
 
-
+/* P */
 .text-relatos p{
     font-size: 16px;
     font-family: var(--monts);
@@ -44,6 +47,7 @@
     font-weight: 700;
 }
 
+/* ---- FOTOS ---- */
 .fotos{
     display: flex;
     justify-content: space-between;
@@ -51,10 +55,12 @@
     margin: 0px 100px;
 }
 
+/* ---- FOTOS1 ----- */
 .fotos1{
     display: flex;
 }
 
+/* IMG */
 .fotos1 img{
     width: 250px;
 }
