@@ -1,12 +1,13 @@
 
 
-
+/* --------------- HEADERS-NUTRI ------- */
 .headers-nutri{
     display: flex;
     justify-content: space-between;
 
 }
 
+/* ---- LINKS-NUTRI ---- */
 .links-nutri{
     height: 50px;
     width: 100%;
@@ -19,24 +20,29 @@
 
 }
 
+/*---- LINKS-IMG ----*/
 .links-img{
     display: flex;
     justify-content: space-around;
 }
 
+/* IMG */
 .links-img img{
     width: 100px;
 }
 
+/* ---- LINKS ---- */
 .links{
     display: flex;
 }
 
+/* LI */
 .links li{
     display: flex;
     gap: 50px;
 }
 
+/* A */
 .links a{
     text-decoration: none;
     color: #F0F0F0;
@@ -48,11 +54,13 @@
     transition: all .3s;
 }
 
+/* A (HOVER) */
 .links a:hover{
     color: #7A7A7A;
 }
 
 
+/* ---- BTN-SERVICOS-HEADER ---- */
 .btn-servicos-header{
     display: flex;
     justify-content: center;
@@ -60,10 +68,11 @@
     padding-inline: 40px;
     height: 40px;
     width: 300px;
-    background-color: red;
+    background-color: #EB2530;
     border-radius: 20px;
 }
 
+/* A */
 .btn-servicos-header a{
     text-decoration: none;
     font-size: 14px;
@@ -72,6 +81,10 @@
     font-weight: 700;
 }
 
+/* A (HOVER BTN) */
+.btn-servicos-header a:hover{
+    color: #7A7A7A;
+}
 
 
 
