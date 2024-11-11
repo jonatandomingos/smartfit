@@ -6,6 +6,8 @@
 /* IMPORTS */
 
 @import url(/nutricao/css/headers-nutri.css);
+@import url(/nutricao/css/nutricional.css);
+@import url(/nutricao/css/footer-nutri.css);
 
 
 :root{

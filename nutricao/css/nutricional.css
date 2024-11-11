@@ -1,0 +1,120 @@
+
+
+.nutricional{
+    display: flex;
+
+    background-image: url(https://nutri.smartfit.com.br/wp-content/uploads/2022/07/3d0707_1a84c7ae4a8749fbb30f497ae4b47620_mv2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-block: 100px;
+}
+
+.container-nutricional{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+.lado-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-nutri{
+    display: flex;
+}
+
+.logo-nutri img{
+    height: 80px;
+}
+
+
+.text-nutri{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.text-nutri h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.text-nutri strong{
+    color: var(--orange);
+}
+
+.text-nutri p{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.img-apps{
+    display: flex;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.text2-nutri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-top: 100px;
+}
+
+.text2-nutri h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.text2-nutri strong{
+    color: var(--orange);
+}
+
+
+.text2-nutri p{
+    color: white;
+}
+
+.btn-agoras{
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-agoras a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #DC2929;
+    border-radius: 6px;
+
+}
+
+.btn-agoras a span{
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lado-rigth{
+    display: flex;
+    margin-top: 140px;
+}
+
+.lado-rigth img{
+    width: 300px;
+    height: 300px;
+}
